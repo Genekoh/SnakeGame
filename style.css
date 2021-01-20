@@ -1,0 +1,46 @@
+:root {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #333;
+}
+
+#header {
+  font-size: 60px;
+  margin: 5px auto 0 auto;
+}
+
+#instructions {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.009em;
+  line-height: 145%;
+}
+
+.score,
+.btn {
+  font-size: 30px;
+  margin: 15px auto;
+  padding: 5px 15px;
+  border: none;
+  text-emphasis: filled;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-play {
+}
+
+.hidden {
+  display: none;
+}
+
+canvas {
+  display: block;
+  background-color: #ffffff;
+  margin: auto;
+}
